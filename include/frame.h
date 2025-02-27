@@ -8,6 +8,8 @@
 #include "opencv2/core.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
 
+#include "feature.h"
+
 using SE3 = Sophus::SE3d;
 
 struct Frame{
